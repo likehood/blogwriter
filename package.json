@@ -1,0 +1,19 @@
+{
+  "name": "blogwriter",
+  "version": "0.1.0",
+  "description": "네이버 맛집 블로그 글 작성 도우미",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "express": "^5.2.1"
+  }
+}
